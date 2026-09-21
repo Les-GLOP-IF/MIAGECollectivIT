@@ -23,11 +23,6 @@ jobs:
         with:
           fetch-depth: 0 # Necessary to analyze commit history
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
       - name: Semantic Release
         id: semantic
         uses: cycjimmy/semantic-release-action@v4
