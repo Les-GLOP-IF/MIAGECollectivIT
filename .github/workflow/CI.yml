@@ -1,0 +1,9 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ "main", "dev" ]
+    # Globally ignore files that have no impact on the build execution
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
