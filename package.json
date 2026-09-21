@@ -1,4 +1,6 @@
 {
+  "name": "miage-collectivit",
+  "version": "1.0.0",
   "dependencies": {
     "husky": "^9.1.7"
   }
